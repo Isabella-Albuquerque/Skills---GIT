@@ -95,7 +95,19 @@ To fetch changes from the remote without merging them into your current branch:
 ```
 git fetch origin
 ```
+## Semantic Versioning
+Semantic versioning uses the format:
 
+MAJOR.MINOR.PATCH
+
+PATCH: For bug fixes, small changes, or refactoring that does not affect the public API. Examples:
+1.0.1, 1.0.2, 1.0.3
+
+MINOR: For adding new features while maintaining backward compatibility. Examples:
+1.1.0, 1.2.0, 1.3.0
+
+MAJOR: For changes that are not backward compatible, which could break the client's code. Examples:
+2.0.0, 3.0.0
 
 
 
