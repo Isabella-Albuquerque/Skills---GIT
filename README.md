@@ -12,14 +12,14 @@ git clone https://github.com/example/calculator
 ### Step 2: Creating and Switching Branch
 To create and switch to a new branch 
 ```
--git branch feature/example
+git branch feature/example
 git checkout feature/example
 ```
 
 ### Step 3: Staging Files
 After modifying files, add them to the staging area:
 ```
--git add index.html
+git add index.html
 git add style.css
 
 ```
